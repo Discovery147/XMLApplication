@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="XMLAppTest" verbose="1" >
+    <test name="FactoryTest">
+        <classes>
+            <class name="test.com.sizonenko.xmlapp.factory.TouristVouchersBuilderFactoryTest"/>
+        </classes>
+    </test>
+    <test name="BuilderTest">
+        <classes>
+            <class name="test.com.sizonenko.xmlapp.builder.TouristVouchersBuilderTest"/>
+        </classes>
+    </test>
+</suite>

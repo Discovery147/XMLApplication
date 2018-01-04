@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="tourist-vouchers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="request" minOccurs="16" maxOccurs="666"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="Request">
+        <xs:sequence>
+            <xs:element name="country" type="Country" />
+            <xs:element name="days" type="xs:positiveInteger" />
+            <xs:element name="nights" type="xs:positiveInteger" />
+        </xs:sequence>
+        <xs:attribute name="request-id" type="xs:ID" use="required" />
+        <xs:attribute name="type" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="pilgrimage" />
+                    <xs:enumeration value="relaxation" />
+                    <xs:enumeration value="excursion" />
+                    <xs:enumeration value="holiday" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Voucher">
+        <xs:complexContent>
+            <xs:extension base="Request">
+                <xs:sequence>
+                    <xs:element name="transport">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="avia" />
+                                <xs:enumeration value="liner" />
+                                <xs:enumeration value="car" />
+                                <xs:enumeration value="train" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="hotel" type="Hotel" />
+                    <xs:element name="cost" type="xs:positiveInteger" />
+                    <xs:element name="included" type="xs:string" />
+                </xs:sequence>
+
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Info">
+        <xs:complexContent>
+            <xs:extension base="Request">
+                <xs:sequence>
+                    <xs:element name="average-cost" type="xs:positiveInteger" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Country">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z]{2,}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Hotel">
+        <xs:sequence>
+            <xs:element name="stars" type="xs:positiveInteger" minOccurs="1" maxOccurs="5"/>
+            <xs:element name="food" default="no">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="no" />
+                        <xs:enumeration value="hb" />
+                        <xs:enumeration value="bb" />
+                        <xs:enumeration value="al" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="room" type="xs:positiveInteger" minOccurs="1"/>
+            <xs:element name="conditioner" default="false" type="xs:boolean" />
+            <xs:element name="tv" default="false" type="xs:boolean" />
+            <xs:element name="gym" default="false" type="xs:boolean" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="request" type="Request" abstract="true" />
+    <xs:element name="voucher" type="Voucher" substitutionGroup="request" />
+    <xs:element name="info" type="Info" substitutionGroup="request" />
+
+</xs:schema>

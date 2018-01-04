@@ -1,0 +1,149 @@
+<tourist-vouchers>
+    <voucher type="relaxation" request-id="id-1">
+        <country>Bulgaria</country>
+        <days>14</days>
+        <nights>15</nights>
+        <transport>avia</transport>
+        <hotel>
+            <stars>3</stars>
+            <food>hb</food>
+            <room>2</room>
+            <conditioner>true</conditioner>
+            <tv>false</tv>
+            <gym>true</gym>
+        </hotel>
+        <cost>450</cost>
+        <included>transfer, hotel, food</included>
+    </voucher>
+    <info request-id="id-2">
+        <country>USA</country>
+        <days>5</days>
+        <nights>6</nights>
+        <average-cost>370</average-cost>
+    </info>
+
+    <info request-id="id-3" type="relaxation">
+        <country>Belgium</country>
+        <days>32</days>
+        <nights>33</nights>
+        <average-cost>1500</average-cost>
+    </info>
+    <voucher request-id="id-4">
+        <country>Spain</country>
+        <days>7</days>
+        <nights>8</nights>
+        <transport>liner</transport>
+        <hotel>
+            <stars>1</stars>
+            <food>no</food>
+            <room>1</room>
+            <conditioner>false</conditioner>
+            <tv>false</tv>
+            <gym>false</gym>
+        </hotel>
+        <cost>230</cost>
+        <included>transfer, hotel</included>
+    </voucher>
+    <info request-id="id-5" type="holiday">
+        <country>Ukraine</country>
+        <days>2</days>
+        <nights>3</nights>
+        <average-cost>180</average-cost>
+    </info>
+    <voucher request-id="id-6" type="excursion">
+        <country>Italy</country>
+        <days>9</days>
+        <nights>9</nights>
+        <transport>avia</transport>
+        <hotel>
+            <stars>5</stars>
+            <food>al</food>
+            <room>3</room>
+            <conditioner>true</conditioner>
+            <tv>true</tv>
+            <gym>true</gym>
+        </hotel>
+        <cost>490</cost>
+        <included>transfer, food, hotel</included>
+    </voucher>
+    <info request-id="id-7" type="pilgrimage">
+        <country>Russia</country>
+        <days>4</days>
+        <nights>5</nights>
+        <average-cost>666</average-cost>
+    </info>
+    <voucher request-id="id-8" type="excursion">
+        <country>Belarus</country>
+        <days>3</days>
+        <nights>13</nights>
+        <transport>car</transport>
+        <hotel>
+            <stars>1</stars>
+            <food>no</food>
+            <room>1</room>
+            <conditioner>false</conditioner>
+            <tv>false</tv>
+            <gym>false</gym>
+        </hotel>
+        <cost>500</cost>
+        <included>transfer, hotel</included>
+    </voucher>
+    <voucher request-id="id-9" type="pilgrimage">
+        <country>Russia</country>
+        <days>360</days>
+        <nights>360</nights>
+        <transport>train</transport>
+        <hotel>
+            <stars>5</stars>
+            <food>bb</food>
+            <room>2</room>
+            <conditioner>true</conditioner>
+            <tv>false</tv>
+            <gym>false</gym>
+        </hotel>
+        <cost>4800</cost>
+        <included>transfer, food, hotel</included>
+    </voucher>
+    <info request-id="id-10" type="relaxation">
+        <country>Greece</country>
+        <days>14</days>
+        <nights>15</nights>
+        <average-cost>666</average-cost>
+    </info>
+    <info request-id="id-11">
+        <country>Greece</country>
+        <days>14</days>
+        <nights>15</nights>
+        <average-cost>666</average-cost>
+    </info>
+    <info request-id="id-12">
+        <country>Brasil</country>
+        <days>14</days>
+        <nights>15</nights>
+        <average-cost>1111</average-cost>
+    </info>
+    <info request-id="id-13" type="holiday">
+        <country>Latvia</country>
+        <days>2</days>
+        <nights>3</nights>
+        <average-cost>180</average-cost>
+    </info>
+    <info request-id="id-14" type="holiday">
+        <country>Litva</country>
+        <days>2</days>
+        <nights>2</nights>
+        <average-cost>179</average-cost>
+    </info>
+    <info request-id="id-15" type="excursion">
+        <country>Russia</country>
+        <days>5</days>
+        <nights>6</nights>
+        <average-cost>230</average-cost>
+    </info>
+    <info request-id="id-16">
+        <country>Bulgaria</country>
+        <days>22</days>
+        <nights>22</nights>
+        <average-cost>333</average-cost>
+    </info>
+</tourist-vouchers>

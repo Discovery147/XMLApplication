@@ -1,0 +1,45 @@
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: country
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: days
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: nights
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: transport
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: stars
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: food
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: room
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: conditioner
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: tv
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: gym
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: hotel
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: cost
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: included
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: country
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: days
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: nights
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: average-cost
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: country
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: days
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: nights
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: transport
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: stars
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: food
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: room
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: conditioner
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: tv
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: gym
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: hotel
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: cost
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: included
+2017-12-17 15:30:29 ERROR RequestHandler:71 - Unknown tag: tourist-vouchers
+2017-12-18 20:20:01 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:28:07 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:28:37 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:29:02 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:29:28 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:30:20 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:30:58 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:32:11 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:33:08 ERROR AbstractTouristVouchersBuilder:44 - SAX exception
+2017-12-18 20:33:30 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:33:58 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:36:10 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:37:41 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
+2017-12-18 20:39:29 ERROR AbstractTouristVouchersBuilder:42 - File data/tourist_vouchers.xml not validate
